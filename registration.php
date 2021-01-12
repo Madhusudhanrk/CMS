@@ -3,6 +3,7 @@
 
 <?php 
     if(isset($_POST['submit'])){ 
+
       $firstname = $_POST['firstname'];
       $lastname  = $_POST['lastname']; 
       $username  = $_POST['username'];
@@ -26,11 +27,14 @@
           $userlerr = $error['usererr'];
           $usernerr =  $error['usernameerr'];
           $userperr= $error['passerr'];
-            
-          if(empty($userlerr&&$usernerr&&$userperr)){
+             
+          if($userlerr =='' && $usernerr =='' && $userperr ==''){
+            // echo "registered";
             register_user($firstname, $lastname,$username,$email,$password);  
-          }
-                             
+            //contain in admin/functions included in header
+          }else{
+            // echo "not registered";
+          }                             
     }         
 ?>
 <!-- Page Content -->
