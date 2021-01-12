@@ -2,7 +2,8 @@
                 <!-- Blog Search Well -->
 				
   <div class="well">	
-      <h4>Blog Search</h4>
+      <!-- <h4>Blog Search</h4> -->
+      <h4>Search</h4>
 		  <form action="search.php" method="post">
           <div class="input-group">
 							<input type="text" name="searchinput" class="form-control">
@@ -31,10 +32,10 @@
             <h4>Login</h4>
              <form action="includes/login.php" method="post" autocomplete="off">
                   <div class="form-group">
-                     <input type="text" name="login_name" class="form-control" placeholder="username" required>
+                     <input type="text" name="login_name" class="form-control" placeholder="Your Email" required>
                   </div>
                   <div class="input-group">  
-                      <input type="password" name="login_password" class="form-control" placeholder="password" required>
+                      <input type="password" name="login_password" class="form-control" placeholder="Password" required>
                       <span class="input-group-btn">
                         <button class="btn btn-primary" type="submit" name="login">Login</button>
                       </span>

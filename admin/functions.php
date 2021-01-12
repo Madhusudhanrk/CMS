@@ -161,10 +161,11 @@ function user_exist($username){
 //LOGIN FUNTION--------------------------------------------------------------------------------------
 function login($loginname,$loginpassword){
   global $dbcon;
-  $login_username =escape(ucfirst(strtolower($loginname)));
+  // $login_username =escape(ucfirst(strtolower($loginname)));
+  $login_username = $loginname;
   $login_userpassword = escape($loginpassword);   
      //form data if presented in db it run query and fetch record based on username. 
-      $query = "SELECT * FROM users WHERE username='{$login_username}' ";
+      $query = "SELECT * FROM users WHERE user_email='{$login_username}' ";
       $check_user_query = mysqli_query($dbcon,$query);
       querychecker($check_user_query);
       while($row = mysqli_fetch_array($check_user_query)){
