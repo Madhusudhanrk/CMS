@@ -6,13 +6,18 @@ This Project Based on:
 3. ALL MAIN CONCEPTS IN WORDPRESS HAS BEEN RECREATED USING RAW PHP
 
 PHP Conepts Used in the project
-<ul>
+    <ul>
         <li>Databases in PHP</li>
         <li>CMS project-similar to (Wordpress)</li>
         <li>Form Submissions in PHP</li>
         <li>Security in PHP</li>
         <li>Variables in PHP</li>
         <li>Arrays in PHP<li> 
+           <li>Functions in PHP</li>
+            <li>Major Loops in PHP</li>
+            <li>Learn Composer (PHP dependency Manager)</li>
+            <li>Learn to use jQuery + Bootstrap</li>
+            <li>Authentication</li>
     </ul>
 
 CMS users can modify their posts, comments and contents displayed in analytics form using charts API’s and user will get nice GUI Dashboard.
