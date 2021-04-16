@@ -21,7 +21,13 @@ PHP Conepts Used in the project
     </ul>
     <h4>Parts of the Application</h4>
     <p>Front end</p>
-    <ul><li>This part displays posts comments and contents of the application</li></ul>
+    <ul><li>This part displays posts comments and contents of the application</li>
+    <li>HTML and CSS</li>
+    <li>Bootstrap</li>
+    <li>JavaScript</li>
+    <li>Jquery</li>
+    <li>Font awesome icons</li>
+</ul>
      <p>Control part</p>
      <ul><li>This Part is the back panel of the application allows to check and able to control parts of the application</li></ul>
 
