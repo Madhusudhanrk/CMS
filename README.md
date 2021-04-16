@@ -29,6 +29,11 @@ PHP Conepts Used in the project
     <li>Font awesome icons</li>
 </ul>
      <p>Control part</p>
-     <ul><li>This Part is the back panel of the application allows to check and able to control parts of the application</li></ul>
+     <ul><li>This Part is the back panel of the application allows to check and able to control parts of the application</li>
+    <li>Mysql</li>
+    <li>Php</li>
+    <li>Xampp</li>
+    <li>Ajax</li>
+</ul>
 
 CMS users can modify their posts, comments and contents displayed in analytics form using charts API’s and user will get nice GUI Dashboard.
