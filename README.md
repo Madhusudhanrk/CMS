@@ -35,5 +35,5 @@ PHP Conepts Used in the project
     <li>Xampp</li>
     <li>Ajax</li>
 </ul>
-
+<h3>common points Involved</h3>
 CMS users can modify their posts, comments and contents displayed in analytics form using charts API’s and user will get nice GUI Dashboard.
