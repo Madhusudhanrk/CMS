@@ -37,3 +37,4 @@ PHP Conepts Used in the project
 </ul>
 <h3>common points Involved</h3>
 CMS users can modify their posts, comments and contents displayed in analytics form using charts API’s and user will get nice GUI Dashboard.
+<p>CMS is a replica of wordpress built in raw php with mysql database all concepts in the project based on wordpress cms this project is mainly build to get hands on PHP</p>
